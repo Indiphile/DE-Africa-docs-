@@ -5,13 +5,13 @@
 
 ## WARNING
  - ODC datasets can be restored using **dataset ids**, that means, **datasets ids** must stored before the archiving process.
- - The script in this repository stores the archived **dataset ids** in a ***csv  file*** in a format `PRODUCT-NAME_archived.csv`
+ - The script in this repository stores the archived **dataset ids** in a ***csv  file*** in a format `PRODUCT_NAME_archived.csv`
 
 
 ## Running archive_product script
  - Runs on ODC environment. [To configure ODC environment](https://datacube-core.readthedocs.io/en/latest/installation/setup/ubuntu.html#)
  - Input : existing **PRODUCT-NAME**
- - Output : `PRODUCT-NAME_archived.csv` containing a list of archived **dataset ids**
+ - Output : `PRODUCT_NAME_archived.csv` containing a list of archived **dataset ids**
 
 ## Environment variables
 ``` bash
