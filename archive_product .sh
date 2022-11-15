@@ -5,8 +5,8 @@
 datacube system check
 
 #for local test
-eval "$(conda shell.bash hook)"
-conda activate odc_env
+#eval "$(conda shell.bash hook)"
+#conda activate odc_env
 
 echo "Product Name"
 read PRODUCT_NAME
