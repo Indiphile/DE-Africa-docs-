@@ -12,3 +12,12 @@
  - Runs on ODC environment. [To configure ODC environment](https://datacube-core.readthedocs.io/en/latest/installation/setup/ubuntu.html#)
  - Input : existing **PRODUCT-NAME**
  - Output : ***PRODUCT-NAME_archived.csv*** containing a list of archived **dataset ids**
+
+## Environment variables
+``` bash
+export DB_DATABASE=dbname
+export DB_HOSTNAME=localhost
+export DB_USERNAME=example
+export DB_PASSWORD=secretexample
+
+```
