@@ -14,6 +14,6 @@ read PRODUCT_NAME
 echo "start archiving datasets"
 python3 archive_odc_product.py $PRODUCT_NAME
 
-#Refresh ODC-explorer
+#Update ODC-explorer
 cubedash-gen --init --all
 

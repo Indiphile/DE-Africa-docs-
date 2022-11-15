@@ -1,7 +1,7 @@
 # Archive ODC Product/Datasets (in beta)
 
-- This is repository contain script for archiving odc datasets. According to the 
-[ODC API REFERENCE](https://datacube-core.readthedocs.io/en/latest/api/indexed-data/dataset-querying.html) ODC datasets can be archive and later restored.
+- This is repository contains scripts for archiving odc datasets. According to the 
+[ODC API REFERENCE DOCS](https://datacube-core.readthedocs.io/en/latest/api/indexed-data/dataset-querying.html) ODC datasets can be archived and later restored.
 
 ## WARNING
  - ODC datasets can be restored using **dataset ids**, that means, **datasets ids** must stored before the archiving process.
@@ -11,4 +11,4 @@
 ## Running archive_product script
  - Runs on ODC environment. [To configure ODC environment](https://datacube-core.readthedocs.io/en/latest/installation/setup/ubuntu.html#)
  - Input : existing **PRODUCT-NAME**
- - Output : ***PRODUCT-NAME_archived.csv*** containing archived **dataset ids**
+ - Output : ***PRODUCT-NAME_archived.csv*** containing a list of archived **dataset ids**
